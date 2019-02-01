@@ -1,0 +1,298 @@
+
+/* body */
+body{
+    background-image: url('../images/hair-1.jpg');
+    width:auto;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.brand{
+    color: orange;
+    font-family: fantasy;
+}
+/* Navigation */
+.navbar{
+    margin-top: 2%;
+    color: transparent;
+}
+.nav{
+    background-color: transparent;
+}
+.navbar-nav a{
+    font-family: georgia;
+    font-size: 12px;
+    margin-left:12px;
+    color: white;
+
+
+}
+.navbar-nav a:hover{
+    color:orange;
+}
+.beauty{
+    color: orange;
+    font-family: fantasy;
+    font-size:24px;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: white;
+    font-family: georgia;
+}
+
+#menu{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    color: white;
+    font-family: georgia;
+}
+#bars{
+    color: white;
+}
+/* End of navigation */
+
+/* Intro */
+#intro{
+    margin-top:15%;
+    color:white;
+    text-transform: uppercase;
+    font-family: georgia;
+}
+#intro h4{
+    color:white;
+    font-weight: bold
+}
+#intro h1{
+    font-family: fantasy;
+    color: orange;
+}
+/* End of Intro */
+
+/* Curly Hair */
+.curly{
+    background-color:rgba(0, 0, 0, 0.89);
+    opacity: 0.;
+    margin-top: 25%;
+}
+#curly-hair h1{
+    font-family:fantasy;
+    margin-top:5%;
+    color:orange;
+    margin-bottom:3%;
+
+}
+#last-card{
+    margin-bottom: 5%;
+}
+#tips h4{
+    color:orange;
+    font-family: fantasy;
+    border-bottom:3px  solid white;
+
+}
+#tips h5{
+    font-family: georgia;
+    margin-top: 2%;
+}
+.card-content{
+    font-family: georgia;
+    color: #615d5d;
+}
+#tip{
+    color:orange;
+    font-family: fantasy;
+    margin-top:1%;
+}
+
+
+#tip-7 h5{
+    font-family:georgia;
+}
+.card .embed{
+    width:100%;
+    margin-left:auto;
+}
+#videos{
+    margin: auto;
+}
+/* End of curly hair */
+
+/* Afro-hair */
+.afro{
+    background-color:white;
+    opacity: 0.95;
+    /* margin-top:10%; */
+}
+.afro-style{
+    color:orange;
+    font-family:fantasy;
+    padding-top:3%;
+    padding-bottom: 3%;
+
+
+}
+.image-responsive:hover{
+    transition: 1.9s;
+}
+.afro-3, .afro-6, .hair-1{
+    margin-top: 3%;
+}
+.afro-6{
+    margin-bottom:4%;
+}
+/* End of afro hair */
+
+/* Texture */
+.texture{
+    background-color: wheat;
+    opacity: 0.95;
+}
+.texture h2{
+    color:black;
+    padding-bottom: 3%;
+    font-family:fantasy;
+    padding-top: 5%;
+    font-weight: bold;
+}
+.list-group{
+    margin-bottom:3%;
+}
+.texture h6{
+    font-family: georgia;
+    color: black;
+}
+.texture h5{
+    font-family: georgia;
+    font-size: 14px;
+}
+.how-style h2{
+    color:orange;
+    font-family: georgia;
+    font-size: 14px;
+    text-align: center;
+    margin-top:2px;
+}
+.how-style P{
+    color:black;
+    font-size: 13px;
+    text-align: center;
+}
+.how-style P strong{
+    color: orangered;
+    font-family:georgia;
+}
+/* End of texture */
+
+
+/* Hair Cuts */
+.hair-cuts{
+    background-color:wheat;
+    opacity:0.95;
+  
+}
+.hair-cuts h1{
+    font-family:fantasy;
+    font-size:20px;
+    color:orangered;
+}
+.hair-cuts h2{
+    font-size:18px;
+    font-family:georgia;
+}
+.hair-cuts p{
+    color:black;
+    font-family:georgia;
+    font-size:14px;
+}
+/* End of hair cuts */
+
+
+/* Contact Form */
+.page-header h2{
+    color:orangered;
+    font-family:fantasy;
+    margin-bottom:7%;
+}
+/* #info{
+    padding-top: 2%;
+} */
+
+.question{
+    margin-top:3%;
+
+}
+.form-input{
+    font-family: georgia;
+    background: transparent;
+    border: 1px solid orange;
+    color: white;
+}
+ ::placeholder{
+    color: white;
+}
+.jumbotron{
+    background-color: black;
+    margin-top: 4%;
+}
+.jumbtron{
+    background:transparent;
+    opacity: 0.9;
+}
+
+.btn-custom{
+    font-family: georgia;
+    background: orangered;
+    color: white;
+}
+/* End of Contact Form */
+
+/* footer */
+.footer{
+    margin-top: 5%;
+    height:auto;
+    background-color:orange;
+    opacity: 0.95;
+
+}
+.footer h3{
+    color:black;
+    font-weight: bold;
+    font-family: georgia;
+    font-size: 16px;
+    border-right: 1px solid #ffffff;
+
+
+}
+
+.footer a:hover{
+    color: orange;
+}
+.footer .navi{
+    color: white;
+    margin-top:5%;
+    display: block;
+    font-size: 14px;
+}
+.social-icons i{
+    color: white;
+    margin-top: 5%;
+    font-size:22px;
+}
+/* end of footer */
+@media screen and (max-width:768px) {
+    .texture h5{
+        font-size:16px;
+    }.texture h6{
+        font-family: georgia;
+        color: black;
+        font-size: 14px;
+    }
+    .texture strong{
+        font-size:14px;
+    }
+}
